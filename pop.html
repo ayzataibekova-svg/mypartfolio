@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work - Ayzat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="brand">
+            Ayzat<span class="brand-dot">.</span>
+        </a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#media">Media</a>
+            <a href="pol.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<button
+    class="hamburger"
+    id="hamburger"
+    type="button"
+    aria-expanded="false"
+    aria-controls="menu"
+>
+    ☰ Menu
+</button>
+
+<nav id="menu">
+
+<main>
+
+<header class="hero" id="top">
+    <div class="hero-content">
+        <p class="hero-description">Student, creative thinker and future programmer.</p>
+        <!-- JavaScript greeting -->
+<h2 id="greeting">Welcome!</h2>
+
+<button id="askName" type="button">
+    Tell me your name
+</button>
+
+        <p class="eyebrow">MY CREATIVE SPACE</p>
+        <h1>My Work</h1>
+        <p class="hero-description">Things I Have Created</p>
+        <img src="Gorniy-Altay.jpeg" alt="Mountains">
+    </div>
+</header>
+
+<section class="section" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+
+        <article class="project-card">
+            <div class="project-body">
+                <span class="project-number">01</span>
+                <h3>Personal Website</h3>
+                <p>
+                    A personal website created using HTML and CSS.
+                    It introduces my interests, skills, and achievements.
+                </p>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-body">
+                <span class="project-number">02</span>
+                <h3>Creative Design</h3>
+                <p>
+                    A creative project where I combined imagination,
+                    colors, and design to create something unique.
+                </p>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section class="section" id="media">
+    <h2>Media Skills</h2>
+
+    <div class="media-box">
+        <h3>My Audio</h3>
+        <p>A sound of my skills:</p>
+
+        <audio controls preload="metadata">
+            <source src="kola.mp4" type="audio/wav">
+            Your browser does not support audio.
+        </audio>
+    </div>
+
+    <div class="media-box">
+        <h3>My Video</h3>
+        <p>A video of my works:</p>
+
+        <video controls width="560" preload="metadata"
+               poster="media/video-poster.png">
+            <source src="kola.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Rate My Projects</h2>
+
+    <form>
+        <p>
+            <label for="score">
+                How many points do you give me (1–5)?
+            </label>
+
+            <input id="score" type="number"
+                   min="1" max="5" value="5">
+        </p>
+
+        <p>
+            <label>
+                <input type="radio" name="score-opinion" value="like">
+                I like your projects
+            </label>
+
+            <label>
+                <input type="radio" name="score-opinion" value="improve">
+                Your projects need improvement
+            </label>
+        </p>
+    </form>
+
+    <p>
+        <a class="project-link" href="pol.html">
+            If you like my works → Contact me
+        </a>
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>© Ayzat. - Ala-Too College. - Kyrgyzstan</p>
+    <a href="#top">↑ Top</a>
+</footer>
+<a href="#top" id="scrollTopBtn" class="back-to-top">
+    ↑ Top
+</a>
+
+<script src="scroll.js" defer></script>
+
+</body>
+</html>
