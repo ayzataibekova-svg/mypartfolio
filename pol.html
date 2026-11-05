@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ayzat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="brand">
+            Ayzat<span class="brand-dot">.</span>
+        </a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pop.html">My work</a>
+        </nav>
+    </div>
+</header>
+
+
+
+<header class="hero" id="top">
+    <div class="hero-content">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h1>Contact Me</h1>
+        <img src="gh.jpg" alt="Mountains">
+    </div>
+</header>
+
+<section class="section contact-section">
+    <h2>Let's Connect</h2>
+    <p>Have a question about my work?</p>
+
+    <form>
+        <fieldset>
+            <legend>Contact form</legend>
+
+            <p>
+                <label for="visitor-name">Your name</label>
+                <input id="visitor-name" name="name"
+                       type="text" autocomplete="name" required>
+            </p>
+
+            <p>
+                <label for="visitor-email">Email address</label>
+                <input id="visitor-email" name="email"
+                       type="email" autocomplete="email" required>
+            </p>
+
+            <p>
+                <label for="topic">Topic</label>
+                <select id="topic" name="topic">
+                    <option value="project">My project</option>
+                    <option value="study">HTML work</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="message">Message</label>
+                <textarea id="message" name="message"
+                          rows="5" required></textarea>
+            </p>
+
+            <button type="submit" disabled>Send message</button>
+            <button type="reset">Clear form</button>
+
+            <p><small>Nice to meet you! *_*</small></p>
+        </fieldset>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>© Ayzat. - Ala-Too College. - Kyrgyzstan</p>
+    <a href="#top">↑ Top</a>
+</footer>
+
+<a href="#top" id="scrollTopBtn" class="back-to-top">
+    ↑ Top
+</a>
+
+<script src="scroll.js" defer></script>
+
+</body>
+</html>
